@@ -12,9 +12,9 @@ interface KPICardProps {
 
 const colorClasses = {
   blue: {
-    bg: 'bg-blue-50',
-    text: 'text-blue-600',
-    icon: 'bg-blue-100',
+    bg: 'bg-drumond-dark/5',
+    text: 'text-drumond-dark',
+    icon: 'bg-drumond-dark/10',
   },
   green: {
     bg: 'bg-green-50',
@@ -27,9 +27,9 @@ const colorClasses = {
     icon: 'bg-yellow-100',
   },
   purple: {
-    bg: 'bg-purple-50',
-    text: 'text-purple-600',
-    icon: 'bg-purple-100',
+    bg: 'bg-drumond-light/10',
+    text: 'text-drumond-light',
+    icon: 'bg-drumond-light/20',
   },
   red: {
     bg: 'bg-red-50',

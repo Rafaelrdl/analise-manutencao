@@ -22,7 +22,7 @@ export default function EngenhariaSection({ data, allData }: EngenhariaSectionPr
         max: 100,
         splitNumber: 10,
         itemStyle: {
-          color: '#3b82f6',
+          color: '#1a3a5c',
         },
         progress: {
           show: true,
@@ -108,7 +108,7 @@ export default function EngenhariaSection({ data, allData }: EngenhariaSectionPr
   return (
     <div className="space-y-6">
       <h2 className="text-xl font-bold text-gray-800 flex items-center gap-2">
-        <Wrench className="w-6 h-6 text-blue-600" />
+        <Wrench className="w-6 h-6 text-drumond-dark" />
         Engenharia Clínica - {data.Mês}
       </h2>
 

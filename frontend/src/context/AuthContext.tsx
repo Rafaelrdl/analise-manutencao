@@ -10,6 +10,7 @@ interface AuthContextType {
   isAuthenticated: boolean
   login: (username: string, password: string) => Promise<boolean>
   logout: () => void
+  updateUser: (name: string, password?: string) => void
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined)
@@ -37,7 +38,22 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const login = async (username: string, password: string): Promise<boolean> => {
-    const foundUser = VALID_USERS.find(
+    // Verificar credenciais customizadas salvas
+    const customCredentials = localStorage.getItem('customCredentials')
+    let credentials = VALID_USERS
+
+    if (customCredentials) {
+      const parsed = JSON.parse(customCredentials)
+      credentials = VALID_USERS.map(u => {
+        const custom = parsed[u.username]
+        if (custom) {
+          return { ...u, ...custom }
+        }
+        return u
+      })
+    }
+
+    const foundUser = credentials.find(
       (u) => u.username === username && u.password === password
     )
 
@@ -58,8 +74,31 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     localStorage.removeItem('user')
   }
 
+  const updateUser = (name: string, password?: string) => {
+    if (!user) return
+
+    // Atualizar nome
+    const updatedUser = { ...user, name }
+    setUser(updatedUser)
+    localStorage.setItem('user', JSON.stringify(updatedUser))
+
+    // Atualizar credenciais customizadas se a senha foi alterada
+    if (password) {
+      const customCredentials = localStorage.getItem('customCredentials')
+      const parsed = customCredentials ? JSON.parse(customCredentials) : {}
+      parsed[user.username] = { name, password }
+      localStorage.setItem('customCredentials', JSON.stringify(parsed))
+    } else {
+      // Apenas atualizar o nome nas credenciais customizadas
+      const customCredentials = localStorage.getItem('customCredentials')
+      const parsed = customCredentials ? JSON.parse(customCredentials) : {}
+      parsed[user.username] = { ...parsed[user.username], name }
+      localStorage.setItem('customCredentials', JSON.stringify(parsed))
+    }
+  }
+
   return (
-    <AuthContext.Provider value={{ user, isAuthenticated, login, logout }}>
+    <AuthContext.Provider value={{ user, isAuthenticated, login, logout, updateUser }}>
       {children}
     </AuthContext.Provider>
   )

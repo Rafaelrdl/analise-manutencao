@@ -43,12 +43,10 @@ export default function Sidebar({ activeSection, setActiveSection }: SidebarProp
       {/* Logo */}
       <div className="p-6 border-b border-gray-200">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-            <Activity className="w-6 h-6 text-white" />
-          </div>
+          <img src="/logo-drumond.jpg" alt="Drumond" className="w-10 h-10 rounded-lg object-cover" />
           <div>
-            <h2 className="font-bold text-gray-800">Manutenção</h2>
-            <p className="text-xs text-gray-500">Dashboard</p>
+            <h2 className="font-bold text-drumond-dark">Manutenção</h2>
+            <p className="text-xs text-drumond-light">Dashboard</p>
           </div>
         </div>
       </div>
@@ -67,7 +65,7 @@ export default function Sidebar({ activeSection, setActiveSection }: SidebarProp
               onClick={() => setActiveSection(item.id as ActiveSection)}
               className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-colors ${
                 isActive
-                  ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white'
+                  ? 'bg-gradient-to-r from-drumond-dark to-drumond-light text-white'
                   : 'text-gray-600 hover:bg-gray-100'
               }`}
             >

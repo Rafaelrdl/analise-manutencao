@@ -7,21 +7,29 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Cores Drumond
+        drumond: {
+          dark: '#1a3a5c',      // Azul escuro principal
+          medium: '#2d5a7b',    // Azul médio
+          light: '#4a9ecc',     // Azul claro/ciano
+          lighter: '#6bb8dc',   // Azul mais claro
+          accent: '#48b5a0',    // Verde/teal do coração
+        },
         primary: {
-          50: '#eff6ff',
-          100: '#dbeafe',
-          200: '#bfdbfe',
-          300: '#93c5fd',
-          400: '#60a5fa',
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
-          800: '#1e40af',
-          900: '#1e3a8a',
+          50: '#e8f4fa',
+          100: '#d1e9f5',
+          200: '#a3d3eb',
+          300: '#6bb8dc',
+          400: '#4a9ecc',
+          500: '#2d5a7b',
+          600: '#1a3a5c',
+          700: '#152e4a',
+          800: '#102238',
+          900: '#0b1726',
         },
         success: {
-          500: '#22c55e',
-          600: '#16a34a',
+          500: '#48b5a0',
+          600: '#3a9485',
         },
         warning: {
           500: '#f59e0b',

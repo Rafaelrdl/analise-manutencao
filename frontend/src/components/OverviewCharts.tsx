@@ -21,7 +21,7 @@ interface OverviewChartsProps {
   currentMonth: string
 }
 
-const COLORS = ['#3b82f6', '#22c55e', '#f59e0b', '#8b5cf6', '#ef4444', '#06b6d4']
+const COLORS = ['#1a3a5c', '#4a9ecc', '#48b5a0', '#2d5a7b', '#6bb8dc', '#5fd4bf']
 
 export default function OverviewCharts({ data, currentMonth }: OverviewChartsProps) {
   // Dados para o gráfico de barras comparativo
@@ -76,8 +76,8 @@ export default function OverviewCharts({ data, currentMonth }: OverviewChartsPro
               }}
             />
             <Legend />
-            <Bar dataKey="Corretivas Abertas" fill="#3b82f6" radius={[4, 4, 0, 0]} />
-            <Bar dataKey="Corretivas Fechadas" fill="#22c55e" radius={[4, 4, 0, 0]} />
+            <Bar dataKey="Corretivas Abertas" fill="#1a3a5c" radius={[4, 4, 0, 0]} />
+            <Bar dataKey="Corretivas Fechadas" fill="#4a9ecc" radius={[4, 4, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </motion.div>
@@ -108,16 +108,16 @@ export default function OverviewCharts({ data, currentMonth }: OverviewChartsPro
             <Line
               type="monotone"
               dataKey="Engenharia"
-              stroke="#8b5cf6"
+              stroke="#1a3a5c"
               strokeWidth={3}
-              dot={{ fill: '#8b5cf6', strokeWidth: 2 }}
+              dot={{ fill: '#1a3a5c', strokeWidth: 2 }}
             />
             <Line
               type="monotone"
               dataKey="Predial"
-              stroke="#f59e0b"
+              stroke="#4a9ecc"
               strokeWidth={3}
-              dot={{ fill: '#f59e0b', strokeWidth: 2 }}
+              dot={{ fill: '#4a9ecc', strokeWidth: 2 }}
             />
           </LineChart>
         </ResponsiveContainer>
@@ -177,8 +177,8 @@ export default function OverviewCharts({ data, currentMonth }: OverviewChartsPro
               }}
             />
             <Legend />
-            <Bar dataKey="Preventivas Abertas" fill="#f59e0b" radius={[4, 4, 0, 0]} />
-            <Bar dataKey="Preventivas Fechadas" fill="#8b5cf6" radius={[4, 4, 0, 0]} />
+            <Bar dataKey="Preventivas Abertas" fill="#48b5a0" radius={[4, 4, 0, 0]} />
+            <Bar dataKey="Preventivas Fechadas" fill="#2d5a7b" radius={[4, 4, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </motion.div>

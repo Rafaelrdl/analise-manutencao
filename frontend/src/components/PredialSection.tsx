@@ -22,7 +22,7 @@ export default function PredialSection({ data, allData }: PredialSectionProps) {
         max: 100,
         splitNumber: 10,
         itemStyle: {
-          color: '#f59e0b',
+          color: '#4a9ecc',
         },
         progress: {
           show: true,
@@ -101,14 +101,14 @@ export default function PredialSection({ data, allData }: PredialSectionProps) {
         name: 'Abertas',
         type: 'bar',
         data: [data['PRED - Preventivas AR Abertas'], data['PRED - Demais Preventivas Abertas']],
-        itemStyle: { color: '#3b82f6' },
+        itemStyle: { color: '#1a3a5c' },
         barWidth: '40%',
       },
       {
         name: 'Fechadas',
         type: 'bar',
         data: [data['PRED - Preventivas AR Fechadas'], data['PRED - Demais Preventivas Fechadas']],
-        itemStyle: { color: '#22c55e' },
+        itemStyle: { color: '#4a9ecc' },
         barWidth: '40%',
       },
     ],
@@ -117,7 +117,7 @@ export default function PredialSection({ data, allData }: PredialSectionProps) {
   return (
     <div className="space-y-6">
       <h2 className="text-xl font-bold text-gray-800 flex items-center gap-2">
-        <Building2 className="w-6 h-6 text-yellow-600" />
+        <Building2 className="w-6 h-6 text-drumond-light" />
         Manutenção Predial - {data.Mês}
       </h2>
 
@@ -172,7 +172,7 @@ export default function PredialSection({ data, allData }: PredialSectionProps) {
           className="bg-white rounded-xl shadow-sm border border-gray-100 p-6"
         >
           <h3 className="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
-            <Wind className="w-5 h-5 text-blue-500" />
+            <Wind className="w-5 h-5 text-drumond-dark" />
             Preventivas - AR vs Demais
           </h3>
           <ReactECharts option={preventivasChartOption} style={{ height: '300px' }} />

@@ -90,32 +90,32 @@ export default function SLACharts({ data, allData }: SLAChartsProps) {
         type: 'line',
         data: allData.map((d) => d['ENG - % SLA Triagem Urgente']),
         smooth: true,
-        lineStyle: { color: '#8b5cf6' },
-        itemStyle: { color: '#8b5cf6' },
+        lineStyle: { color: '#1a3a5c' },
+        itemStyle: { color: '#1a3a5c' },
       },
       {
         name: 'ENG - Fechamento Urgente',
         type: 'line',
         data: allData.map((d) => d['ENG - % SLA Fechamento Urgente']),
         smooth: true,
-        lineStyle: { color: '#8b5cf6', type: 'dashed' },
-        itemStyle: { color: '#8b5cf6' },
+        lineStyle: { color: '#1a3a5c', type: 'dashed' },
+        itemStyle: { color: '#1a3a5c' },
       },
       {
         name: 'PRED - Triagem Urgente',
         type: 'line',
         data: allData.map((d) => d['PRED - % SLA Triagem Urgente']),
         smooth: true,
-        lineStyle: { color: '#f59e0b' },
-        itemStyle: { color: '#f59e0b' },
+        lineStyle: { color: '#4a9ecc' },
+        itemStyle: { color: '#4a9ecc' },
       },
       {
         name: 'PRED - Fechamento Urgente',
         type: 'line',
         data: allData.map((d) => d['PRED - % SLA Fechamento Urgente']),
         smooth: true,
-        lineStyle: { color: '#f59e0b', type: 'dashed' },
-        itemStyle: { color: '#f59e0b' },
+        lineStyle: { color: '#4a9ecc', type: 'dashed' },
+        itemStyle: { color: '#4a9ecc' },
       },
     ],
   }
@@ -210,7 +210,7 @@ export default function SLACharts({ data, allData }: SLAChartsProps) {
   return (
     <div className="space-y-6">
       <h2 className="text-xl font-bold text-gray-800 flex items-center gap-2">
-        <Target className="w-6 h-6 text-blue-600" />
+        <Target className="w-6 h-6 text-drumond-dark" />
         Análise de SLA - {data.Mês}
       </h2>
 
@@ -319,15 +319,15 @@ export default function SLACharts({ data, allData }: SLAChartsProps) {
               <Radar
                 name="Engenharia"
                 dataKey="Engenharia"
-                stroke="#8b5cf6"
-                fill="#8b5cf6"
+                stroke="#1a3a5c"
+                fill="#1a3a5c"
                 fillOpacity={0.3}
               />
               <Radar
                 name="Predial"
                 dataKey="Predial"
-                stroke="#f59e0b"
-                fill="#f59e0b"
+                stroke="#4a9ecc"
+                fill="#4a9ecc"
                 fillOpacity={0.3}
               />
               <Legend />

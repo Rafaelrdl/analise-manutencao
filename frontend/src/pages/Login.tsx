@@ -8,8 +8,7 @@ import {
   User, 
   AlertCircle, 
   Eye, 
-  EyeOff,
-  Activity
+  EyeOff
 } from 'lucide-react'
 
 export default function Login() {
@@ -49,18 +48,22 @@ export default function Login() {
         className="w-full max-w-md"
       >
         <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
-          {/* Header */}
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-8 text-center">
+          {/* Header com Logo Drumond */}
+          <div className="bg-white p-8 text-center border-b border-gray-100">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ delay: 0.2, type: 'spring', stiffness: 200 }}
-              className="w-20 h-20 bg-white rounded-full mx-auto flex items-center justify-center mb-4"
+              className="mb-4"
             >
-              <Activity className="w-10 h-10 text-blue-600" />
+              <img 
+                src="/logo-drumond.jpg" 
+                alt="Drumond Soluções Hospitalares" 
+                className="h-24 mx-auto object-contain"
+              />
             </motion.div>
-            <h1 className="text-2xl font-bold text-white">Dashboard de Manutenção</h1>
-            <p className="text-blue-100 mt-2">Indicadores de Performance</p>
+            <h1 className="text-xl font-bold text-drumond-dark">Sistema de Manutenção</h1>
+            <p className="text-drumond-light mt-1 text-sm">Indicadores de Performance</p>
           </div>
 
           {/* Form */}
@@ -82,12 +85,12 @@ export default function Login() {
                   Usuário
                 </label>
                 <div className="relative">
-                  <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+                  <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-drumond-light" />
                   <input
                     type="text"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
-                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-drumond-light focus:border-transparent transition-all"
                     placeholder="Digite seu usuário"
                     required
                   />
@@ -99,19 +102,19 @@ export default function Login() {
                   Senha
                 </label>
                 <div className="relative">
-                  <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+                  <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-drumond-light" />
                   <input
                     type={showPassword ? 'text' : 'password'}
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    className="w-full pl-10 pr-12 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                    className="w-full pl-10 pr-12 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-drumond-light focus:border-transparent transition-all"
                     placeholder="Digite sua senha"
                     required
                   />
                   <button
                     type="button"
                     onClick={() => setShowPassword(!showPassword)}
-                    className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-drumond-dark"
                   >
                     {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
                   </button>
@@ -124,7 +127,7 @@ export default function Login() {
               whileTap={{ scale: 0.98 }}
               type="submit"
               disabled={isLoading}
-              className="w-full py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-medium rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              className="w-full py-3 bg-gradient-to-r from-drumond-dark to-drumond-light text-white font-medium rounded-lg hover:from-drumond-medium hover:to-drumond-lighter transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
             >
               {isLoading ? (
                 <motion.div
@@ -140,7 +143,7 @@ export default function Login() {
 
             <div className="text-center text-sm text-gray-500">
               <p>Usuários de teste:</p>
-              <p className="text-xs mt-1">admin / admin123</p>
+              <p className="text-xs mt-1 text-drumond-light">admin / admin123</p>
             </div>
           </form>
         </div>
