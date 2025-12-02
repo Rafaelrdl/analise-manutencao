@@ -9,6 +9,7 @@ import OverviewCharts from '../components/OverviewCharts'
 import EngenhariaSection from '../components/EngenhariaSection'
 import PredialSection from '../components/PredialSection'
 import SLACharts from '../components/SLACharts'
+import TecnicoSection from '../components/TecnicoSection'
 import MonthSelector from '../components/MonthSelector'
 import Header from '../components/Header'
 import { 
@@ -20,7 +21,7 @@ import {
   TrendingDown
 } from 'lucide-react'
 
-type ActiveSection = 'overview' | 'engenharia' | 'predial' | 'sla'
+type ActiveSection = 'overview' | 'engenharia' | 'predial' | 'sla' | 'tecnicos'
 
 export default function Dashboard() {
   const [data, setData] = useState<IndicadorMes[]>([])
@@ -163,6 +164,16 @@ export default function Dashboard() {
                     transition={{ duration: 0.3 }}
                   >
                     <SLACharts data={currentData} allData={data} />
+                  </motion.div>
+                )}
+
+                {activeSection === 'tecnicos' && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <TecnicoSection data={currentData} allData={data} />
                   </motion.div>
                 )}
               </>

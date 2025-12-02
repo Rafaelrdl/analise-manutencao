@@ -62,3 +62,15 @@ export interface ChartData {
   value: number
   [key: string]: string | number
 }
+
+export interface TecnicoData {
+  nome: string
+  setor: string
+  corretivas: number
+  preventivas: number
+  totalOS: number
+  atendidasNoPrazo: number
+  fechadasNoPrazo: number
+  percentualAtendimento: number
+  percentualFechamento: number
+}

@@ -7,10 +7,11 @@ import {
   Building2,
   Clock,
   LogOut,
-  ChevronRight
+  ChevronRight,
+  Users
 } from 'lucide-react'
 
-type ActiveSection = 'overview' | 'engenharia' | 'predial' | 'sla'
+type ActiveSection = 'overview' | 'engenharia' | 'predial' | 'sla' | 'tecnicos'
 
 interface SidebarProps {
   activeSection: ActiveSection
@@ -22,6 +23,7 @@ const menuItems = [
   { id: 'engenharia', label: 'Engenharia Clínica', icon: Activity },
   { id: 'predial', label: 'Manutenção Predial', icon: Building2 },
   { id: 'sla', label: 'Análise SLA', icon: Clock },
+  { id: 'tecnicos', label: 'Desempenho Técnico', icon: Users },
 ]
 
 export default function Sidebar({ activeSection, setActiveSection }: SidebarProps) {

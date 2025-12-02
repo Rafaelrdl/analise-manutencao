@@ -167,3 +167,58 @@ export function formatPercentage(value: number): string {
 export function formatNumber(value: number): string {
   return value.toLocaleString('pt-BR')
 }
+
+export interface TecnicoData {
+  nome: string
+  setor: string
+  corretivas: number
+  preventivas: number
+  totalOS: number
+  atendidasNoPrazo: number
+  fechadasNoPrazo: number
+  percentualAtendimento: number
+  percentualFechamento: number
+}
+
+export function extractTecnicosData(data: IndicadorMes): TecnicoData[] {
+  const tecnicos: TecnicoData[] = []
+  const tecnicoNames = new Set<string>()
+
+  // Encontrar todos os nomes de técnicos nas chaves do objeto
+  Object.keys(data).forEach((key) => {
+    const match = key.match(/^TEC - (.+?) - /)
+    if (match) {
+      tecnicoNames.add(match[1])
+    }
+  })
+
+  // Extrair dados de cada técnico
+  tecnicoNames.forEach((nome) => {
+    const prefix = `TEC - ${nome}`
+    const setor = (data as any)[`${prefix} - Setor`] || ''
+    const corretivas = Number((data as any)[`${prefix} - Corretivas`]) || 0
+    const preventivas = Number((data as any)[`${prefix} - Preventivas`]) || 0
+    const totalOS = Number((data as any)[`${prefix} - Total OS`]) || 0
+    const atendidasNoPrazo = Number((data as any)[`${prefix} - Atendidas no Prazo`]) || 0
+    const fechadasNoPrazo = Number((data as any)[`${prefix} - Fechadas no Prazo`]) || 0
+    const percentualAtendimento = Number((data as any)[`${prefix} - % Atend. Prazo`]) || 0
+    const percentualFechamento = Number((data as any)[`${prefix} - % Fech. Prazo`]) || 0
+
+    if (totalOS > 0) {
+      tecnicos.push({
+        nome,
+        setor,
+        corretivas,
+        preventivas,
+        totalOS,
+        atendidasNoPrazo,
+        fechadasNoPrazo,
+        percentualAtendimento,
+        percentualFechamento,
+      })
+    }
+  })
+
+  // Ordenar por total de OS (maior para menor)
+  return tecnicos.sort((a, b) => b.totalOS - a.totalOS)
+}
