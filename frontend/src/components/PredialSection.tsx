@@ -10,7 +10,7 @@ interface PredialSectionProps {
   allData: IndicadorMes[]
 }
 
-export default function PredialSection({ data, allData }: PredialSectionProps) {
+export default function PredialSection({ data }: PredialSectionProps) {
   // Dados para o gráfico de gauge
   const gaugeOption = {
     series: [

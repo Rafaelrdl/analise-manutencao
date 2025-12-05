@@ -10,7 +10,7 @@ interface EngenhariaSectionProps {
   allData: IndicadorMes[]
 }
 
-export default function EngenhariaSection({ data, allData }: EngenhariaSectionProps) {
+export default function EngenhariaSection({ data }: EngenhariaSectionProps) {
   // Dados para o gráfico de gauge
   const gaugeOption = {
     series: [

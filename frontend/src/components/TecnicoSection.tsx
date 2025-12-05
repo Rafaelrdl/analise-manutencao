@@ -12,11 +12,6 @@ import {
   PieChart,
   Pie,
   Cell,
-  RadarChart,
-  PolarGrid,
-  PolarAngleAxis,
-  PolarRadiusAxis,
-  Radar,
 } from 'recharts'
 import {
   Users,
@@ -29,7 +24,7 @@ import {
   Activity,
 } from 'lucide-react'
 import { IndicadorMes } from '../types'
-import { extractTecnicosData, TecnicoData, formatNumber, formatPercentage } from '../utils/dataLoader'
+import { extractTecnicosData, formatNumber, formatPercentage } from '../utils/dataLoader'
 
 interface TecnicoSectionProps {
   data: IndicadorMes
@@ -38,7 +33,7 @@ interface TecnicoSectionProps {
 
 const COLORS = ['#1a3a5c', '#2d5a7b', '#4a9ecc', '#6bb8dc', '#48b5a0', '#5cc9b5', '#7ed6c4', '#a1e3d6']
 
-export default function TecnicoSection({ data, allData }: TecnicoSectionProps) {
+export default function TecnicoSection({ data }: TecnicoSectionProps) {
   const [selectedSetor, setSelectedSetor] = useState<'todos' | 'Engenharia Clínica' | 'Predial'>('todos')
   const [sortBy, setSortBy] = useState<'totalOS' | 'percentualAtendimento' | 'percentualFechamento'>('totalOS')
 
@@ -79,14 +74,11 @@ export default function TecnicoSection({ data, allData }: TecnicoSectionProps) {
 
   // Dados para radar - Técnico selecionado vs média
   const mediaPercentualAtendimento = tecnicos.reduce((acc, t) => acc + t.percentualAtendimento, 0) / tecnicos.length || 0
-  const mediaPercentualFechamento = tecnicos.reduce((acc, t) => acc + t.percentualFechamento, 0) / tecnicos.length || 0
-  const mediaTotalOS = tecnicos.reduce((acc, t) => acc + t.totalOS, 0) / tecnicos.length || 0
 
   // Estatísticas resumidas
   const totalTecnicos = tecnicos.length
   const totalOS = tecnicos.reduce((acc, t) => acc + t.totalOS, 0)
   const mediaAtendimentoPrazo = mediaPercentualAtendimento
-  const mediaFechamentoPrazo = mediaPercentualFechamento
   const melhorTecnico = tecnicosOrdenados[0]
 
   // Dados para comparativo de SLA
