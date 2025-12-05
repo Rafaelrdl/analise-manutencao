@@ -27,6 +27,9 @@ export interface IndicadorMes {
   'ENG - % SLA Triagem Pouco Urgente': number
   'ENG - Pouco Urgente Fechadas no Prazo': number
   'ENG - % SLA Fechamento Pouco Urgente': number
+  'ENG - Qtd Emergentes': number
+  'ENG - Qtd Urgentes': number
+  'ENG - Qtd Pouco Urgentes': number
   'ENG - % Emergentes': number
   'ENG - % Urgentes': number
   'ENG - % Pouco Urgentes': number
@@ -36,8 +39,10 @@ export interface IndicadorMes {
   'PRED - Total Preventivas Abertas': number
   'PRED - Total Preventivas Fechadas': number
   'PRED - % Preventivas Fechadas': number
-  'PRED - Preventivas AR Abertas': number
-  'PRED - Preventivas AR Fechadas': number
+  'PRED - Preventivas AR SC GD Abertas': number
+  'PRED - Preventivas AR SC GD Fechadas': number
+  'PRED - Preventivas AR CG GZ Abertas': number
+  'PRED - Preventivas AR CG GZ Fechadas': number
   'PRED - Demais Preventivas Abertas': number
   'PRED - Demais Preventivas Fechadas': number
   'PRED - OS Emergentes': number

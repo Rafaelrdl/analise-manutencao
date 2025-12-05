@@ -8,6 +8,7 @@ interface User {
 interface AuthContextType {
   user: User | null
   isAuthenticated: boolean
+  isLoading: boolean
   login: (username: string, password: string) => Promise<boolean>
   logout: () => void
   updateUser: (name: string, password?: string) => void
@@ -26,6 +27,7 @@ const VALID_USERS = [
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null)
   const [isAuthenticated, setIsAuthenticated] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
     // Verificar se há um usuário salvo no localStorage
@@ -35,6 +37,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       setUser(parsedUser)
       setIsAuthenticated(true)
     }
+    setIsLoading(false)
   }, [])
 
   const login = async (username: string, password: string): Promise<boolean> => {
@@ -98,7 +101,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   return (
-    <AuthContext.Provider value={{ user, isAuthenticated, login, logout, updateUser }}>
+    <AuthContext.Provider value={{ user, isAuthenticated, isLoading, login, logout, updateUser }}>
       {children}
     </AuthContext.Provider>
   )

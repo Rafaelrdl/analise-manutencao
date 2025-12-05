@@ -142,8 +142,11 @@ export default function SLACharts({ data, allData }: SLAChartsProps) {
       formatter: (params: any) => `${params.data[0]}<br/>${params.data[1]}: ${params.data[2]}%`,
     },
     grid: {
-      height: '50%',
-      top: '10%',
+      height: '60%',
+      top: '5%',
+      left: '20%',
+      right: '10%',
+      containLabel: true,
     },
     xAxis: {
       type: 'category',
@@ -164,6 +167,10 @@ export default function SLACharts({ data, allData }: SLAChartsProps) {
       ],
       splitArea: {
         show: true,
+      },
+      axisLabel: {
+        interval: 0,
+        fontSize: 12,
       },
     },
     visualMap: {

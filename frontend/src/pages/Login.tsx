@@ -140,11 +140,6 @@ export default function Login() {
                 'Entrar'
               )}
             </motion.button>
-
-            <div className="text-center text-sm text-gray-500">
-              <p>Usuários de teste:</p>
-              <p className="text-xs mt-1 text-drumond-light">admin / admin123</p>
-            </div>
           </form>
         </div>
       </motion.div>

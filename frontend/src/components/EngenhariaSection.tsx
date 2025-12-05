@@ -76,10 +76,20 @@ export default function EngenhariaSection({ data, allData }: EngenhariaSectionPr
   const priorityChartOption = {
     tooltip: {
       trigger: 'item',
+      formatter: (params: any) => {
+        const osCount = params.name === 'Emergentes' 
+          ? data['ENG - OS Emergentes']
+          : params.name === 'Urgentes'
+          ? data['ENG - OS Urgentes']
+          : data['ENG - OS Pouco Urgentes'];
+        
+        return `${params.name}<br/>${osCount} ${osCount === 1 ? 'ordem' : 'ordens'} (${params.percent}%)`;
+      },
     },
     legend: {
-      orient: 'vertical',
-      left: 'left',
+      orient: 'horizontal',
+      bottom: 0,
+      left: 'center',
     },
     series: [
       {
@@ -97,9 +107,9 @@ export default function EngenhariaSection({ data, allData }: EngenhariaSectionPr
           formatter: '{b}: {d}%',
         },
         data: [
-          { value: data['ENG - % Emergentes'], name: 'Emergentes', itemStyle: { color: '#ef4444' } },
-          { value: data['ENG - % Urgentes'], name: 'Urgentes', itemStyle: { color: '#f59e0b' } },
-          { value: data['ENG - % Pouco Urgentes'], name: 'Pouco Urgentes', itemStyle: { color: '#22c55e' } },
+          { value: data['ENG - Qtd Emergentes'], name: 'Emergentes', itemStyle: { color: '#ef4444' } },
+          { value: data['ENG - Qtd Urgentes'], name: 'Urgentes', itemStyle: { color: '#f59e0b' } },
+          { value: data['ENG - Qtd Pouco Urgentes'], name: 'Pouco Urgentes', itemStyle: { color: '#22c55e' } },
         ],
       },
     ],
@@ -134,11 +144,11 @@ export default function EngenhariaSection({ data, allData }: EngenhariaSectionPr
           color="yellow"
         />
         <KPICard
-          title="Atendidas no Prazo"
-          value={data['ENG - Corretivas Atendidas no Prazo'].toString()}
+          title="Preventivas Fechadas"
+          value={data['ENG - Total Preventivas Fechadas'].toString()}
           icon={<CheckCircle className="w-6 h-6" />}
           color="purple"
-          subtitle={`${data['ENG - % Corretivas Atendidas no Prazo']}%`}
+          subtitle={`${data['ENG - % Preventivas Fechadas']}%`}
         />
       </div>
 
@@ -169,7 +179,7 @@ export default function EngenhariaSection({ data, allData }: EngenhariaSectionPr
         </motion.div>
       </div>
 
-      {/* Progress Bars */}
+      {/* Progress Bars - SLA */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -177,74 +187,167 @@ export default function EngenhariaSection({ data, allData }: EngenhariaSectionPr
         className="bg-white rounded-xl shadow-sm border border-gray-100 p-6"
       >
         <h3 className="text-lg font-semibold text-gray-800 mb-6">
-          SLA de Triagem por Prioridade
+          SLA por Prioridade
         </h3>
         
-        <div className="space-y-6">
+        <div className="space-y-8">
           {/* Emergente */}
           <div>
-            <div className="flex justify-between mb-2">
-              <span className="text-sm font-medium text-gray-700 flex items-center gap-2">
-                <AlertTriangle className="w-4 h-4 text-red-500" />
-                Emergente
-              </span>
-              <span className="text-sm font-bold text-gray-800">
-                {data['ENG - % SLA Triagem Emergente']}%
-              </span>
+            <div className="flex justify-between items-end mb-3">
+              <div className="flex flex-col">
+                <span className="text-sm font-medium text-gray-700 flex items-center gap-2">
+                  <AlertTriangle className="w-4 h-4 text-red-500" />
+                  Emergente
+                </span>
+                <span className="text-xs text-gray-500 ml-6">
+                  {data['ENG - OS Emergentes']} {data['ENG - OS Emergentes'] === 1 ? 'ordem' : 'ordens'}
+                </span>
+              </div>
             </div>
-            <Progress.Root
-              className="relative overflow-hidden bg-gray-200 rounded-full w-full h-3"
-              value={data['ENG - % SLA Triagem Emergente']}
-            >
-              <Progress.Indicator
-                className="bg-red-500 w-full h-full transition-transform duration-500"
-                style={{ transform: `translateX(-${100 - data['ENG - % SLA Triagem Emergente']}%)` }}
-              />
-            </Progress.Root>
+            
+            {/* Triagem */}
+            <div className="mb-3">
+              <div className="flex justify-between mb-1">
+                <span className="text-xs text-gray-600">Triagem</span>
+                <span className="text-xs font-semibold text-gray-800">
+                  {data['ENG - % SLA Triagem Emergente']}%
+                </span>
+              </div>
+              <Progress.Root
+                className="relative overflow-hidden bg-gray-200 rounded-full w-full h-2.5"
+                value={data['ENG - % SLA Triagem Emergente']}
+              >
+                <Progress.Indicator
+                  className="bg-red-500 w-full h-full transition-transform duration-500"
+                  style={{ transform: `translateX(-${100 - data['ENG - % SLA Triagem Emergente']}%)` }}
+                />
+              </Progress.Root>
+            </div>
+            
+            {/* Fechamento */}
+            <div>
+              <div className="flex justify-between mb-1">
+                <span className="text-xs text-gray-600">Fechamento</span>
+                <span className="text-xs font-semibold text-gray-800">
+                  {data['ENG - % SLA Fechamento Emergente']}%
+                </span>
+              </div>
+              <Progress.Root
+                className="relative overflow-hidden bg-gray-200 rounded-full w-full h-2.5"
+                value={data['ENG - % SLA Fechamento Emergente']}
+              >
+                <Progress.Indicator
+                  className="bg-red-400 w-full h-full transition-transform duration-500"
+                  style={{ transform: `translateX(-${100 - data['ENG - % SLA Fechamento Emergente']}%)` }}
+                />
+              </Progress.Root>
+            </div>
           </div>
 
           {/* Urgente */}
           <div>
-            <div className="flex justify-between mb-2">
-              <span className="text-sm font-medium text-gray-700 flex items-center gap-2">
-                <AlertTriangle className="w-4 h-4 text-yellow-500" />
-                Urgente
-              </span>
-              <span className="text-sm font-bold text-gray-800">
-                {data['ENG - % SLA Triagem Urgente']}%
-              </span>
+            <div className="flex justify-between items-end mb-3">
+              <div className="flex flex-col">
+                <span className="text-sm font-medium text-gray-700 flex items-center gap-2">
+                  <AlertTriangle className="w-4 h-4 text-yellow-500" />
+                  Urgente
+                </span>
+                <span className="text-xs text-gray-500 ml-6">
+                  {data['ENG - OS Urgentes']} {data['ENG - OS Urgentes'] === 1 ? 'ordem' : 'ordens'}
+                </span>
+              </div>
             </div>
-            <Progress.Root
-              className="relative overflow-hidden bg-gray-200 rounded-full w-full h-3"
-              value={data['ENG - % SLA Triagem Urgente']}
-            >
-              <Progress.Indicator
-                className="bg-yellow-500 w-full h-full transition-transform duration-500"
-                style={{ transform: `translateX(-${100 - data['ENG - % SLA Triagem Urgente']}%)` }}
-              />
-            </Progress.Root>
+            
+            {/* Triagem */}
+            <div className="mb-3">
+              <div className="flex justify-between mb-1">
+                <span className="text-xs text-gray-600">Triagem</span>
+                <span className="text-xs font-semibold text-gray-800">
+                  {data['ENG - % SLA Triagem Urgente']}%
+                </span>
+              </div>
+              <Progress.Root
+                className="relative overflow-hidden bg-gray-200 rounded-full w-full h-2.5"
+                value={data['ENG - % SLA Triagem Urgente']}
+              >
+                <Progress.Indicator
+                  className="bg-yellow-500 w-full h-full transition-transform duration-500"
+                  style={{ transform: `translateX(-${100 - data['ENG - % SLA Triagem Urgente']}%)` }}
+                />
+              </Progress.Root>
+            </div>
+            
+            {/* Fechamento */}
+            <div>
+              <div className="flex justify-between mb-1">
+                <span className="text-xs text-gray-600">Fechamento</span>
+                <span className="text-xs font-semibold text-gray-800">
+                  {data['ENG - % SLA Fechamento Urgente']}%
+                </span>
+              </div>
+              <Progress.Root
+                className="relative overflow-hidden bg-gray-200 rounded-full w-full h-2.5"
+                value={data['ENG - % SLA Fechamento Urgente']}
+              >
+                <Progress.Indicator
+                  className="bg-yellow-400 w-full h-full transition-transform duration-500"
+                  style={{ transform: `translateX(-${100 - data['ENG - % SLA Fechamento Urgente']}%)` }}
+                />
+              </Progress.Root>
+            </div>
           </div>
 
           {/* Pouco Urgente */}
           <div>
-            <div className="flex justify-between mb-2">
-              <span className="text-sm font-medium text-gray-700 flex items-center gap-2">
-                <Clock className="w-4 h-4 text-green-500" />
-                Pouco Urgente
-              </span>
-              <span className="text-sm font-bold text-gray-800">
-                {data['ENG - % SLA Triagem Pouco Urgente']}%
-              </span>
+            <div className="flex justify-between items-end mb-3">
+              <div className="flex flex-col">
+                <span className="text-sm font-medium text-gray-700 flex items-center gap-2">
+                  <Clock className="w-4 h-4 text-green-500" />
+                  Pouco Urgente
+                </span>
+                <span className="text-xs text-gray-500 ml-6">
+                  {data['ENG - OS Pouco Urgentes']} {data['ENG - OS Pouco Urgentes'] === 1 ? 'ordem' : 'ordens'}
+                </span>
+              </div>
             </div>
-            <Progress.Root
-              className="relative overflow-hidden bg-gray-200 rounded-full w-full h-3"
-              value={data['ENG - % SLA Triagem Pouco Urgente']}
-            >
-              <Progress.Indicator
-                className="bg-green-500 w-full h-full transition-transform duration-500"
-                style={{ transform: `translateX(-${100 - data['ENG - % SLA Triagem Pouco Urgente']}%)` }}
-              />
-            </Progress.Root>
+            
+            {/* Triagem */}
+            <div className="mb-3">
+              <div className="flex justify-between mb-1">
+                <span className="text-xs text-gray-600">Triagem</span>
+                <span className="text-xs font-semibold text-gray-800">
+                  {data['ENG - % SLA Triagem Pouco Urgente']}%
+                </span>
+              </div>
+              <Progress.Root
+                className="relative overflow-hidden bg-gray-200 rounded-full w-full h-2.5"
+                value={data['ENG - % SLA Triagem Pouco Urgente']}
+              >
+                <Progress.Indicator
+                  className="bg-green-500 w-full h-full transition-transform duration-500"
+                  style={{ transform: `translateX(-${100 - data['ENG - % SLA Triagem Pouco Urgente']}%)` }}
+                />
+              </Progress.Root>
+            </div>
+            
+            {/* Fechamento */}
+            <div>
+              <div className="flex justify-between mb-1">
+                <span className="text-xs text-gray-600">Fechamento</span>
+                <span className="text-xs font-semibold text-gray-800">
+                  {data['ENG - % SLA Fechamento Pouco Urgente']}%
+                </span>
+              </div>
+              <Progress.Root
+                className="relative overflow-hidden bg-gray-200 rounded-full w-full h-2.5"
+                value={data['ENG - % SLA Fechamento Pouco Urgente']}
+              >
+                <Progress.Indicator
+                  className="bg-green-400 w-full h-full transition-transform duration-500"
+                  style={{ transform: `translateX(-${100 - data['ENG - % SLA Fechamento Pouco Urgente']}%)` }}
+                />
+              </Progress.Root>
+            </div>
           </div>
         </div>
       </motion.div>

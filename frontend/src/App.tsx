@@ -5,7 +5,15 @@ import Dashboard from './pages/Dashboard'
 import { AuthProvider, useAuth } from './context/AuthContext'
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
-  const { isAuthenticated } = useAuth()
+  const { isAuthenticated, isLoading } = useAuth()
+  
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-drumond-light to-drumond-dark">
+        <div className="text-white text-xl">Carregando...</div>
+      </div>
+    )
+  }
   
   if (!isAuthenticated) {
     return <Navigate to="/login" replace />

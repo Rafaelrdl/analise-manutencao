@@ -325,7 +325,13 @@ export function extractTecnicosData(data: IndicadorMes): TecnicoData[] {
   // Extrair dados de cada técnico
   tecnicoNames.forEach((nome) => {
     const prefix = `TEC - ${nome}`
-    const setor = (data as any)[`${prefix} - Setor`] || ''
+    let setor = (data as any)[`${prefix} - Setor`] || ''
+    
+    // Forçar Diego e Lara para Engenharia Clínica
+    if (nome === 'Diego' || nome === 'Lara') {
+      setor = 'Engenharia Clínica'
+    }
+    
     const corretivas = Number((data as any)[`${prefix} - Corretivas`]) || 0
     const preventivas = Number((data as any)[`${prefix} - Preventivas`]) || 0
     const totalOS = Number((data as any)[`${prefix} - Total OS`]) || 0
