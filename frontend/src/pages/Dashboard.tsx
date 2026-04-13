@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useAuth } from '../context/AuthContext'
-import { loadCSVData, getLatestMonth, formatPercentage, formatNumber } from '../utils/dataLoader'
+import { loadCSVData, formatNumber } from '../utils/dataLoader'
 import { IndicadorMes } from '../types'
 import Sidebar from '../components/Sidebar'
 import KPICard from '../components/KPICard'
@@ -15,10 +15,7 @@ import Header from '../components/Header'
 import { 
   Wrench, 
   CheckCircle, 
-  AlertTriangle, 
-  Clock,
-  TrendingUp,
-  TrendingDown
+  Clock
 } from 'lucide-react'
 
 type ActiveSection = 'overview' | 'engenharia' | 'predial' | 'sla' | 'tecnicos'

@@ -145,7 +145,7 @@ export default function OverviewCharts({ data, currentMonth }: OverviewChartsPro
               dataKey="value"
               label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
             >
-              {pieChartData.map((entry, index) => (
+              {pieChartData.map((_entry, index) => (
                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
               ))}
             </Pie>

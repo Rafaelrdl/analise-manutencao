@@ -125,7 +125,7 @@ const mockData: IndicadorMes[] = [
     'TEC - Rafael Ribeiro - Fechadas no Prazo': 1,
     'TEC - Rafael Ribeiro - % Atend. Prazo': 40.0,
     'TEC - Rafael Ribeiro - % Fech. Prazo': 6.67,
-  } as IndicadorMes,
+  } as unknown as IndicadorMes,
   {
     'Mês': 'Fevereiro',
     'Total Corretivas Abertas': 160,
@@ -248,7 +248,7 @@ const mockData: IndicadorMes[] = [
     'TEC - Rafael Ribeiro - Fechadas no Prazo': 1,
     'TEC - Rafael Ribeiro - % Atend. Prazo': 12.5,
     'TEC - Rafael Ribeiro - % Fech. Prazo': 12.5,
-  } as IndicadorMes,
+  } as unknown as IndicadorMes,
 ]
 
 export async function loadCSVData(): Promise<IndicadorMes[]> {
@@ -262,7 +262,7 @@ export async function loadCSVData(): Promise<IndicadorMes[]> {
     
     const csvText = await response.text()
     
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       Papa.parse<IndicadorMes>(csvText, {
         header: true,
         dynamicTyping: true,
@@ -273,7 +273,7 @@ export async function loadCSVData(): Promise<IndicadorMes[]> {
           }
           resolve(results.data)
         },
-        error: (error) => {
+        error: (error: Error) => {
           console.error('Erro ao parsear CSV:', error)
           resolve(mockData)
         },
