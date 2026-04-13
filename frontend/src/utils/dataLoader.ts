@@ -1,5 +1,5 @@
 import Papa from 'papaparse'
-import { IndicadorMes } from '../types'
+import { IndicadorMes, OSDetalhe } from '../types'
 
 // Dados mockados baseados no CSV fornecido (incluindo dados de técnicos)
 const mockData: IndicadorMes[] = [
@@ -357,4 +357,24 @@ export function extractTecnicosData(data: IndicadorMes): TecnicoData[] {
 
   // Ordenar por total de OS (maior para menor)
   return tecnicos.sort((a, b) => b.totalOS - a.totalOS)
+}
+
+export async function loadOSDetalhadas(): Promise<OSDetalhe[]> {
+  try {
+    const response = await fetch('/os_detalhadas.csv')
+    if (!response.ok) return []
+
+    const csvText = await response.text()
+
+    return new Promise((resolve) => {
+      Papa.parse<OSDetalhe>(csvText, {
+        header: true,
+        skipEmptyLines: true,
+        complete: (results) => resolve(results.data),
+        error: () => resolve([]),
+      })
+    })
+  } catch {
+    return []
+  }
 }

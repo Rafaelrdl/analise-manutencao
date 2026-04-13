@@ -1,0 +1,462 @@
+﻿numero,tipo,estado,prioridade,responsavel,localizacao,problema,data_criacao,data_conclusao,setor,atendimento,mes
+24445,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24446,Manutenção Preventiva,Fechada,Não urgente,Vinicius Rian,,,2026-01-04,2026-02-04,Engenharia Clínica,Interno,Abril
+24447,Manutenção Preventiva,Aberta,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24448,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,2026-01-04,2026-01-04,Engenharia Clínica,Interno,Abril
+24449,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-01-04,2026-01-04,Predial,Interno,Abril
+24450,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,Predial,Interno,Abril
+24451,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,Predial,Interno,Abril
+24452,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,,Interno,Abril
+24453,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,,Interno,Abril
+24454,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,,Interno,Abril
+24455,Manutenção Preventiva,Aberta,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24456,Manutenção Preventiva,Cancelada,Não urgente,Diego Mendes,,,2026-01-04,2026-06-04,Engenharia Clínica,Interno,Abril
+24457,Manutenção Preventiva,Aguardando Análise Crítica ,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24458,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24459,Manutenção Preventiva,Aberta,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24460,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24461,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24462,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24463,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24464,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24465,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24466,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24467,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24468,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24469,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24470,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24471,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24472,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24473,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24474,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24475,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24476,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24477,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24478,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24479,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24480,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24481,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24482,Manutenção Preventiva,Aberta,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24483,Manutenção Preventiva,Aberta,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24484,Manutenção Preventiva,Aberta,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24485,Manutenção Preventiva,Aberta,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24486,Manutenção Preventiva,Cancelada,Não urgente,Diego Mendes,,,2026-01-04,2026-01-04,Engenharia Clínica,Interno,Abril
+24487,Manutenção Preventiva,Aberta,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24488,Teste de Segurança Elétrica,Aberta,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24489,Manutenção Preventiva,Aguardando Análise Crítica ,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24490,Manutenção Preventiva,Aguardando Análise Crítica ,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24491,Teste de Segurança Elétrica,Aberta,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24492,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24493,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24494,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24495,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24496,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24497,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24498,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24499,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24500,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24501,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24502,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24503,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24504,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24505,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24506,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24507,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24508,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24509,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24510,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24511,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24512,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24513,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24514,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24515,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24516,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24517,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24518,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24519,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24520,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24521,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24522,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24523,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24524,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24525,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24526,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24527,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24528,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24529,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24530,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24531,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24532,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24533,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24534,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24535,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24536,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24537,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24538,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24539,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24540,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24541,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24542,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24543,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24544,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24545,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24546,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24547,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24548,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24549,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24550,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24551,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24552,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24553,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24554,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24555,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24556,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24557,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24558,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24559,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24560,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24561,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24562,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24563,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24564,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24565,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24566,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24567,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24568,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24569,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24570,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24571,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24572,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24573,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24574,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24575,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24576,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24577,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24578,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24579,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24580,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24581,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24582,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24583,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24584,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24585,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24586,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24587,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24588,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24589,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24590,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24591,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24592,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24593,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24594,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24595,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24596,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24597,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24598,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24599,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24600,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24601,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24602,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24603,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24604,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24605,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24606,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24607,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24608,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24609,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24610,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24611,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24612,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24613,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24614,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24615,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24616,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24617,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24618,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24619,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24620,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24621,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24622,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24623,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24624,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24625,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24626,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24627,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24628,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24629,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24630,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24631,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24632,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24633,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24634,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24635,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24636,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24637,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24638,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24639,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24640,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24641,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24642,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24643,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24644,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24645,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24646,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24647,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24648,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24649,Manutenção Preventiva,Aberta,Não urgente,Gabriel da Silva,,,2026-01-04,,Predial,Interno,Abril
+24650,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,Predial,Interno,Abril
+24651,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,,Interno,Abril
+24652,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,Predial,Interno,Abril
+24653,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,Predial,Interno,Abril
+24654,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,Predial,Interno,Abril
+24655,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,Predial,Interno,Abril
+24656,Manutenção Preventiva,Aberta,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24657,Manutenção Preventiva,Aberta,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24658,Manutenção Preventiva,Aguardando Análise Crítica ,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24659,Manutenção Preventiva,Aguardando Análise Crítica ,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24660,Manutenção Preventiva,Aguardando Análise Crítica ,Não urgente,Diego Mendes,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24661,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,Predial,Interno,Abril
+24662,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,2026-01-04,2026-01-04,Engenharia Clínica,Interno,Abril
+24663,Manutenção Preventiva,Aberta,Não urgente,,,,2026-01-04,,,Interno,Abril
+24664,Manutenção Preventiva,Aberta,Não urgente,Rafael Ribeiro,,,2026-01-04,,,Interno,Abril
+24665,Manutenção Preventiva,Aberta,Não urgente,Rafael Ribeiro,,,2026-01-04,,,Interno,Abril
+24666,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24667,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24668,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24669,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24670,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24671,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24672,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24673,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24674,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24675,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24676,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24677,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24678,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24679,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24680,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24681,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24682,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24683,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24684,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24685,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24686,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24687,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24688,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24689,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24690,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24691,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24692,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24693,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24694,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24695,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24696,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24697,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24698,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24699,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24700,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24701,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24702,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24703,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24704,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24705,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24706,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24707,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24708,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24709,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24710,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24711,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24712,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24713,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24714,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24715,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24716,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24717,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24718,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24719,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24720,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24721,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24722,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24723,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24724,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24725,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24726,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24727,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24728,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24729,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24730,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24731,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24732,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24733,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24734,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24735,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24736,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24737,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24738,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24739,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24740,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24741,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24742,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24743,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24744,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24745,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24746,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24747,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24748,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24749,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24750,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-01-04,,Predial,Interno,Abril
+24751,Manutenção Corretiva,Fechada,Urgente,Guilherme Breno Magalhaes,Conasp – GC,Elétrica - Serviços em equipamentos eletricos ,2026-01-04,2026-01-04,Predial,Interno,Abril
+24752,Manutenção Preventiva,Aguardando Análise Crítica ,Não urgente,Vinicius Rian,,,2026-01-04,,Engenharia Clínica,Interno,Abril
+24753,Manutenção Corretiva,Fechada,Emergente,Guilherme Breno Magalhaes,,"#Elétrica (Iluminação, tomada e cabeamento)",2026-01-04,2026-01-04,Predial,Interno,Abril
+24754,Manutenção Corretiva,Aberta,Urgente,Gabriel da Silva,,Ar Condicionado não liga,2026-01-04,,Predial,,Abril
+24755,Manutenção Corretiva,Fechada,Pouco urgente,Leonardo Oliveira,Consultório Plástica - Plástica/Extrabismo – SC,Serviços gerais,2026-01-04,2026-02-04,Predial,Interno,Abril
+24756,Manutenção Corretiva,Fechada,Urgente,Vinicius Rian,Conasp – GC,Elétrica - Serviços em equipamentos eletricos ,2026-01-04,2026-01-04,Engenharia Clínica,Interno,Abril
+24757,Manutenção Corretiva,Fechada,Emergente,Leonardo Oliveira,Retina – CG,Hidráulica - Serviços em vazamentos ,2026-01-04,2026-01-04,Predial,Interno,Abril
+24758,Manutenção Corretiva,Aberta,Emergente,Gabriel da Silva,Córnea – SC,Ar Condicionado sujo,2026-01-04,,Predial,,Abril
+24759,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,2026-02-04,2026-02-04,Engenharia Clínica,Interno,Abril
+24760,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-02-04,2026-02-04,Predial,Interno,Abril
+24761,Manutenção Preventiva,Aberta,Não urgente,,,,2026-02-04,,Predial,Interno,Abril
+24762,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,2026-02-04,2026-02-04,Engenharia Clínica,Interno,Abril
+24763,Manutenção Corretiva,Fechada,Urgente,Guilherme Breno Magalhaes,,Elétrica - Serviço em iluminação ,2026-02-04,2026-02-04,Predial,Interno,Abril
+24766,Manutenção Corretiva,Fechada,Urgente,Guilherme Breno Magalhaes,,Elétrica - Serviço em cabeamentos,2026-02-04,2026-02-04,Predial,Interno,Abril
+24767,Manutenção Corretiva,Fechada,Emergente,Guilherme Breno Magalhaes,,"#Elétrica (Iluminação, tomada e cabeamento)",2026-02-04,2026-02-04,Predial,Interno,Abril
+24768,Manutenção Corretiva,Fechada,Urgente,Diego Mendes,,Serviços em chamada de enfermagem ,2026-02-04,2026-09-04,Engenharia Clínica,Interno,Abril
+24769,Teste de Segurança Elétrica,Aberta,Não urgente,Diego Mendes,Expurgo - Bloco Cirúrgico – CG,,2026-02-04,,Engenharia Clínica,Interno,Abril
+24770,Teste de Segurança Elétrica,Aberta,Não urgente,Diego Mendes,Expurgo - Bloco Cirúrgico – CG,,2026-02-04,,Engenharia Clínica,Interno,Abril
+24771,Manutenção Preventiva,Aberta,Não urgente,Mateus Cardoso Oliveira,,,2026-02-04,,Predial,Interno,Abril
+24772,Teste de Segurança Elétrica,Aguardando Análise Crítica ,Não urgente,Vinicius Rian,Laser Argônio - Centro de Pesquisas Clínicas – GC,,2026-02-04,,Engenharia Clínica,Interno,Abril
+24773,Vistoria Diária ,Cancelada,Não urgente,Vinicius Rian,,,2026-03-04,2026-06-04,Engenharia Clínica,Interno,Abril
+24774,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-03-04,2026-06-04,Predial,Interno,Abril
+24775,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-03-04,2026-06-04,Predial,Interno,Abril
+24776,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-03-04,2026-06-04,Predial,Interno,Abril
+24777,Manutenção Preventiva,Aberta,Não urgente,,,,2026-03-04,,Predial,Interno,Abril
+24778,Manutenção Preventiva,Aberta,Não urgente,,,,2026-03-04,,Predial,Interno,Abril
+24779,Vistoria Diária ,Cancelada,Não urgente,Vinicius Rian,,,2026-04-04,2026-06-04,Engenharia Clínica,Interno,Abril
+24780,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-04-04,2026-06-04,Predial,Interno,Abril
+24781,Manutenção Preventiva,Aberta,Não urgente,,,,2026-04-04,,Predial,Interno,Abril
+24782,Manutenção Preventiva,Aberta,Não urgente,,,,2026-04-04,,Predial,Interno,Abril
+24783,Vistoria Diária ,Cancelada,Não urgente,Vinicius Rian,,,2026-05-04,2026-06-04,Engenharia Clínica,Interno,Abril
+24784,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-05-04,2026-06-04,Predial,Interno,Abril
+24785,Manutenção Preventiva,Aberta,Não urgente,,,,2026-05-04,,Predial,Interno,Abril
+24786,Manutenção Preventiva,Aberta,Não urgente,,,,2026-05-04,,Predial,Interno,Abril
+24787,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-06-04,,Engenharia Clínica,Interno,Abril
+24788,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-06-04,2026-06-04,Predial,Interno,Abril
+24789,Manutenção Preventiva,Aberta,Não urgente,Diego Mendes,,,2026-06-04,,Engenharia Clínica,Interno,Abril
+24790,Manutenção Preventiva,Fechada,Não urgente,Leonardo Oliveira,,,2026-06-04,2026-06-04,Predial,Interno,Abril
+24791,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,2026-06-04,2026-06-04,Engenharia Clínica,Interno,Abril
+24792,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-06-04,2026-06-04,Predial,Interno,Abril
+24793,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,2026-06-04,,Predial,Interno,Abril
+24794,Manutenção Preventiva,Aberta,Não urgente,,,,2026-06-04,,Predial,Interno,Abril
+24795,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,2026-06-04,2026-06-04,Engenharia Clínica,Interno,Abril
+24796,Manutenção Corretiva,Fechada,Urgente,Guilherme Breno Magalhaes,,Elétrica - Serviço em iluminação ,2026-06-04,2026-06-04,Predial,Interno,Abril
+24797,Manutenção Corretiva,Fechada,Urgente,Diego Mendes,,Acessório danificado,2026-06-04,2026-06-04,Engenharia Clínica,Interno,Abril
+24798,Teste de Segurança Elétrica,Aberta,Não urgente,Diego Mendes,Expurgo - Bloco Cirúrgico – CG,,2026-06-04,,Engenharia Clínica,Interno,Abril
+24799,Teste de Segurança Elétrica,Aberta,Não urgente,Diego Mendes,Expurgo - Bloco Cirúrgico – CG,,2026-06-04,,Engenharia Clínica,Interno,Abril
+24800,Teste de Segurança Elétrica,Aberta,Não urgente,Diego Mendes,Consultório 1 COMG Social - CG,,2026-06-04,,Engenharia Clínica,Interno,Abril
+24801,Manutenção Corretiva,Aberta,Urgente,Vinicius Rian,Retina – CG,Elétrica - Serviços em equipamentos eletricos ,2026-06-04,,Engenharia Clínica,,Abril
+24802,Manutenção Corretiva,Fechada,Pouco urgente,Leonardo Oliveira,Circulação – Bloco Cirúrgico – CG,Serviço em alvenaria ,2026-06-04,2026-09-04,Predial,Interno,Abril
+24803,Manutenção Corretiva,Fechada,Urgente,Guilherme Breno Magalhaes,Vestiário M - Bloco Cirúrgico – CG,Elétrica - Serviço em iluminação ,2026-06-04,2026-06-04,Predial,Interno,Abril
+24804,Busca Ativa,Aberta,Urgente,Vinicius Rian,,,2026-06-04,,Engenharia Clínica,Interno,Abril
+24806,Teste de Segurança Elétrica,Aguardando Análise Crítica ,Não urgente,Vinicius Rian,Laser Argônio - Centro de Pesquisas Clínicas – GC,,2026-06-04,,Engenharia Clínica,Interno,Abril
+24807,Manutenção Corretiva,Aberta,Urgente,Gabriel da Silva,,Ar Condicionado não liga,2026-06-04,,Predial,,Abril
+24808,Manutenção Corretiva,Fechada,Pouco urgente,Guilherme Breno Magalhaes,,Serviço de chaveiro ,2026-06-04,2026-07-04,Predial,Interno,Abril
+24809,Teste de Segurança Elétrica,Aberta,Não urgente,Diego Mendes,Consultório 5 - Conasp – GC,,2026-06-04,,Engenharia Clínica,Interno,Abril
+24810,Manutenção Corretiva,Aberta,Urgente,Gabriel da Silva,,"#Ar Condicionado (não resfria, não liga, vazamento ou sujo)",2026-06-04,,Predial,,Abril
+24811,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,2026-07-04,2026-08-04,Engenharia Clínica,Interno,Abril
+24812,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-07-04,2026-07-04,Predial,Interno,Abril
+24813,Teste de Segurança Elétrica,Aberta,Não urgente,,,,2026-07-04,,Engenharia Clínica,Interno,Abril
+24814,Manutenção Preventiva,Aberta,Não urgente,,,,2026-07-04,,Predial,Interno,Abril
+24815,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,2026-07-04,2026-08-04,Engenharia Clínica,Interno,Abril
+24816,Manutenção Corretiva,Aberta,Urgente,Vinicius Rian,,Acessório danificado,2026-07-04,,Engenharia Clínica,,Abril
+24817,Manutenção Corretiva,Aberta,Urgente,Diego Mendes,Sala 1 – Bloco P – SC,Acessório danificado,2026-07-04,,Engenharia Clínica,,Abril
+24818,Manutenção Corretiva,Aberta,Pouco urgente,Mateus Cardoso Oliveira,,Serviço em alvenaria ,2026-07-04,,Predial,,Abril
+24819,Manutenção Corretiva,Fechada,Urgente,Vinicius Rian,,,2026-07-04,2026-08-04,Engenharia Clínica,Interno,Abril
+24820,Manutenção Corretiva,Aberta,Urgente,Vinicius Rian,Retina – CG,Elétrica - Serviços em equipamentos eletricos ,2026-07-04,,Engenharia Clínica,,Abril
+24821,Manutenção Corretiva,Fechada,Urgente,Guilherme Breno Magalhaes,Conasp – GC,Elétrica - Serviço em iluminação ,2026-07-04,2026-08-04,Predial,Interno,Abril
+24822,Manutenção Corretiva,Fechada,Urgente,Guilherme Breno Magalhaes,,Elétrica - Serviço em iluminação ,2026-07-04,2026-08-04,Predial,Interno,Abril
+24823,Manutenção Corretiva,Fechada,Pouco urgente,Guilherme Breno Magalhaes,,Troca de galão de água,2026-07-04,2026-08-04,Predial,Interno,Abril
+24824,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,2026-08-04,2026-08-04,Engenharia Clínica,Interno,Abril
+24825,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-08-04,2026-08-04,Predial,Interno,Abril
+24826,Manutenção Preventiva,Aberta,Não urgente,,,,2026-08-04,,Predial,Interno,Abril
+24827,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,2026-08-04,2026-08-04,Engenharia Clínica,Interno,Abril
+24828,Manutenção Corretiva,Fechada,Pouco urgente,Leonardo Oliveira,,Serviços gerais,2026-08-04,2026-10-04,Predial,Interno,Abril
+24829,Manutenção Corretiva,Aberta,Urgente,Claudio Ramos,,Ar Condicionado não liga,2026-08-04,,Predial,,Abril
+24830,Manutenção Corretiva,Serviço finalizado,Urgente,Vinicius Rian,Circulação  4°andar - GC,Elétrica - Serviços em equipamentos eletricos ,2026-08-04,,Engenharia Clínica,Interno,Abril
+24831,Manutenção Corretiva,Aberta,Urgente,Diego Mendes,,Equipamento perde configuração sozinho,2026-08-04,,Engenharia Clínica,,Abril
+24832,Busca Ativa,Aberta,Não urgente,,,Elétrica - Serviços em equipamentos eletricos ,2026-08-04,,Predial,Interno,Abril
+24833,Manutenção Corretiva,Em execução,Emergente,Claudio Ramos,,Ar Condicionado sujo,2026-08-04,,Predial,Interno,Abril
+24834,Manutenção Corretiva,Aberta,Pouco urgente,Leonardo Oliveira,,Serviço em alvenaria ,2026-08-04,,Predial,,Abril
+24835,Manutenção Corretiva,Aberta,Urgente,Diego Mendes,,Elétrica - Serviços em equipamentos eletricos ,2026-08-04,,Engenharia Clínica,,Abril
+24836,Manutenção Corretiva,Aberta,Urgente,Vinicius Rian,,#Serviço em Equipamento Biomédico,2026-08-04,,Engenharia Clínica,,Abril
+24837,Manutenção Corretiva,Aberta,Pouco urgente,Leonardo Oliveira,,Serviço de chaveiro ,2026-08-04,,Predial,,Abril
+24838,Manutenção Preventiva,Aberta,Não urgente,Mateus Cardoso Oliveira,,,2026-09-04,,Predial,Interno,Abril
+24839,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,2026-09-04,2026-09-04,Engenharia Clínica,Interno,Abril
+24840,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-09-04,2026-09-04,Predial,Interno,Abril
+24841,Manutenção Preventiva,Aberta,Não urgente,,,,2026-09-04,,Predial,Interno,Abril
+24842,Manutenção Preventiva,Aberta,Não urgente,,,,2026-09-04,,Predial,Interno,Abril
+24843,Manutenção Corretiva,Aberta,Urgente,Guilherme Breno Magalhaes,,Elétrica - Serviço em iluminação ,2026-09-04,,Predial,,Abril
+24844,Manutenção Corretiva,Aberta,Urgente,Claudio Ramos,,Ar Condicionado não liga,2026-09-04,,Predial,,Abril
+24845,Manutenção Corretiva,Aberta,Pouco urgente,Leonardo Oliveira,,Serviços gerais,2026-09-04,,Predial,,Abril
+24846,Manutenção Corretiva,Aberta,Urgente,Gabriel da Silva,,Ar Condicionado não resfria ,2026-09-04,,Predial,,Abril
+24847,Manutenção Corretiva,Aberta,Urgente,Gabriel da Silva,,"#Ar Condicionado (não resfria, não liga, vazamento ou sujo)",2026-09-04,,Predial,,Abril
+24848,Manutenção Corretiva,Aberta,Pouco urgente,Leonardo Oliveira,,Serviços em portas e janelas,2026-09-04,,Predial,,Abril
+24853,Manutenção Corretiva,Aberta,Emergente,Leonardo Oliveira,Farmácia – CG,Hidráulica - Serviços em vazamentos ,2026-09-04,,Predial,,Abril
+24854,Manutenção Corretiva,Aberta,Urgente,Gabriel da Silva,,"#Ar Condicionado (não resfria, não liga, vazamento ou sujo)",2026-09-04,,Predial,,Abril
+24855,Manutenção Corretiva,Aberta,Pouco urgente,Gabriel da Silva,Portaria  - CG,Serviços gerais,2026-09-04,,Predial,,Abril
+24856,Manutenção Corretiva,Fechada,Emergente,Guilherme Breno Magalhaes,Sala Gerência 2°andar - GC,Hidráulica - Serviços em vazamentos ,2026-09-04,2026-10-04,Predial,Interno,Abril
+24857,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,2026-10-04,2026-10-04,Engenharia Clínica,Interno,Abril
+24858,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-10-04,2026-10-04,Predial,Interno,Abril
+24859,Manutenção Preventiva,Aberta,Não urgente,Usuario de consulta,,,2026-10-04,,,Interno,Abril
+24860,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-10-04,2026-10-04,Predial,Interno,Abril
+24861,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-10-04,2026-10-04,Predial,Interno,Abril
+24862,Manutenção Preventiva,Aberta,Não urgente,,,,2026-10-04,,Predial,Interno,Abril
+24863,Manutenção Preventiva,Aberta,Não urgente,,,,2026-10-04,,Predial,Interno,Abril
+24864,Manutenção Corretiva,Aberta,Urgente,Guilherme Breno Magalhaes,,Elétrica - Serviço em iluminação ,2026-10-04,,Predial,,Abril
+24865,Manutenção Corretiva,Aberta,Urgente,Claudio Ramos,,Ar Condicionado não liga,2026-10-04,,Predial,,Abril
+24866,Manutenção Corretiva,Fechada,Pouco urgente,Leonardo Oliveira,,Troca de galão de água,2026-10-04,2026-10-04,Predial,Interno,Abril
+24867,Manutenção Corretiva,Aberta,Emergente,Claudio Ramos,,Ar Condicionado com vazamento,2026-10-04,,Predial,,Abril
+24868,Manutenção Corretiva,Aberta,Pouco urgente,Leonardo Oliveira,,Serviços em portas e janelas,2026-10-04,,Predial,,Abril
+24869,Busca Ativa,Aberta,Não urgente,Leonardo Oliveira,,Hidráulica - Serviços em vazamentos ,2026-10-04,,Predial,Interno,Abril
+24870,Busca Ativa,Aberta,Não urgente,Claudio Ramos,,Ar Condicionado não liga,2026-10-04,,Predial,Interno,Abril
+24871,Busca Ativa,Aberta,Não urgente,Guilherme Breno Magalhaes,,Elétrica - Serviço em iluminação ,2026-10-04,,Predial,Interno,Abril
+24872,Busca Ativa,Aberta,Não urgente,Guilherme Breno Magalhaes,,Elétrica - Serviço em iluminação ,2026-10-04,,Predial,Interno,Abril
+24873,Busca Ativa,Aberta,Não urgente,Guilherme Breno Magalhaes,,Elétrica - Serviço em iluminação ,2026-10-04,,Predial,Interno,Abril
+24874,Busca Ativa,Aberta,Não urgente,Leonardo Oliveira,,,2026-10-04,,Predial,Interno,Abril
+24875,Busca Ativa,Fechada,Não urgente,Leonardo Oliveira,,,2026-10-04,2026-10-04,Predial,Interno,Abril
+24876,Busca Ativa,Aberta,Não urgente,Leonardo Oliveira,,Serviços em pintura,2026-10-04,,Predial,Interno,Abril
+24877,Busca Ativa,Aberta,Não urgente,Leonardo Oliveira,,,2026-10-04,,Predial,Interno,Abril
+24878,Busca Ativa,Aberta,Não urgente,Leonardo Oliveira,,,2026-10-04,,Predial,Interno,Abril
+24879,Busca Ativa,Aberta,Não urgente,Leonardo Oliveira,,,2026-10-04,,Predial,Interno,Abril
+24880,Busca Ativa,Aberta,Não urgente,Leonardo Oliveira,,,2026-10-04,,Predial,Interno,Abril
+24881,Busca Ativa,Aberta,Não urgente,Leonardo Oliveira,,,2026-10-04,,Predial,Interno,Abril
+24882,Busca Ativa,Aberta,Não urgente,Leonardo Oliveira,,,2026-10-04,,Predial,Interno,Abril
+24883,Busca Ativa,Aberta,Não urgente,Leonardo Oliveira,,,2026-10-04,,Predial,Interno,Abril
+24884,Manutenção Corretiva,Aberta,Pouco urgente,Vinicius Rian,,Serviços gerais,2026-10-04,,Engenharia Clínica,,Abril
+24885,Manutenção Corretiva,Aberta,Pouco urgente,Vinicius Rian,,Serviços gerais,2026-10-04,,Engenharia Clínica,,Abril
+24886,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-11-04,,Engenharia Clínica,Interno,Abril
+24887,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-11-04,,Predial,Interno,Abril
+24888,Manutenção Preventiva,Aberta,Não urgente,,,,2026-11-04,,Predial,Interno,Abril
+24889,Manutenção Preventiva,Aberta,Não urgente,,,,2026-11-04,,Predial,Interno,Abril
+24890,Manutenção Corretiva,Aberta,Pouco urgente,Vinicius Rian,,Serviços gerais,2026-11-04,,Engenharia Clínica,,Abril
+24891,Manutenção Corretiva,Serviço finalizado,Emergente,Vinicius Rian,,Serviços em gases medicinais,2026-11-04,,Engenharia Clínica,Interno,Abril
+24892,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,2026-12-04,,Engenharia Clínica,Interno,Abril
+24893,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,2026-12-04,,Predial,Interno,Abril
+24894,Manutenção Preventiva,Aberta,Não urgente,,,,2026-12-04,,Predial,Interno,Abril
+24895,Manutenção Preventiva,Aberta,Não urgente,,,,2026-12-04,,Predial,Interno,Abril
+24896,Manutenção Corretiva,Aberta,Emergente,Leonardo Oliveira,,Hidráulica - Serviços em vazamentos ,2026-12-04,,Predial,,Abril
+24897,Manutenção Corretiva,Aberta,Pouco urgente,Leonardo Oliveira,,Serviços em portas e janelas,2026-12-04,,Predial,,Abril
+24898,Manutenção Corretiva,Aberta,Urgente,Guilherme Breno Magalhaes,,Elétrica - Serviço em iluminação ,2026-12-04,,Predial,,Abril
+24899,Manutenção Preventiva,Aberta,Não urgente,Vinicius Rian,,,,,Engenharia Clínica,Interno,Abril
+24900,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,,,Predial,Interno,Abril
+24901,Manutenção Preventiva,Aberta,Não urgente,Diego Mendes,,,,,Engenharia Clínica,Interno,Abril
+24902,Manutenção Preventiva,Aberta,Não urgente,Leonardo Oliveira,,,,,Predial,Interno,Abril
+24903,Vistoria Diária ,Fechada,Não urgente,Vinicius Rian,,,,,Engenharia Clínica,Interno,Abril
+24904,Manutenção Preventiva,Fechada,Não urgente,Guilherme Breno Magalhaes,,,,,Predial,Interno,Abril
+24905,Manutenção Preventiva,Aberta,Não urgente,Claudio Ramos,,,,,Predial,Interno,Abril
+24906,Manutenção Preventiva,Aberta,Não urgente,,,,,,Predial,Interno,Abril
+24907,Vistoria Diária ,Fechada,Não urgente,,,,,,Engenharia Clínica,Interno,Abril
+24908,Manutenção Corretiva,Aberta,Urgente,,,Elétrica - Serviços em equipamentos eletricos ,,,Predial,,Abril
+24909,Manutenção Corretiva,Aberta,Urgente,,,Serviços em chamada de enfermagem ,,,Predial,,Abril
+24910,Manutenção Corretiva,Aberta,Urgente,Vinicius Rian,Conasp 3°andar – GC,Elétrica - Serviços em equipamentos eletricos ,,,Engenharia Clínica,,Abril
+24911,Manutenção Corretiva,Aberta,Urgente,Vinicius Rian,Consultório Córnea 2 – GC,Elétrica - Serviços em equipamentos eletricos ,,,Engenharia Clínica,,Abril
+24912,Manutenção Corretiva,Aberta,Urgente,,Sala 5 - Bloco 2 – SC,Ar Condicionado não liga,,,Predial,,Abril

@@ -23,8 +23,9 @@ import {
   Building2,
   Activity,
 } from 'lucide-react'
-import { IndicadorMes } from '../types'
+import { IndicadorMes, TecnicoData } from '../types'
 import { extractTecnicosData, formatNumber, formatPercentage } from '../utils/dataLoader'
+import TecnicoDetail from './TecnicoDetail'
 
 interface TecnicoSectionProps {
   data: IndicadorMes
@@ -33,9 +34,10 @@ interface TecnicoSectionProps {
 
 const COLORS = ['#1a3a5c', '#2d5a7b', '#4a9ecc', '#6bb8dc', '#48b5a0', '#5cc9b5', '#7ed6c4', '#a1e3d6']
 
-export default function TecnicoSection({ data }: TecnicoSectionProps) {
+export default function TecnicoSection({ data, allData }: TecnicoSectionProps) {
   const [selectedSetor, setSelectedSetor] = useState<'todos' | 'Engenharia Clínica' | 'Predial'>('todos')
   const [sortBy, setSortBy] = useState<'totalOS' | 'percentualAtendimento' | 'percentualFechamento'>('totalOS')
+  const [selectedTecnico, setSelectedTecnico] = useState<TecnicoData | null>(null)
 
   const tecnicos = extractTecnicosData(data)
 
@@ -89,8 +91,52 @@ export default function TecnicoSection({ data }: TecnicoSectionProps) {
     '% Fechamento': t.percentualFechamento,
   }))
 
+  // Mostrar detalhe do técnico selecionado
+  if (selectedTecnico) {
+    return (
+      <TecnicoDetail
+        tecnico={selectedTecnico}
+        allData={allData}
+        currentMonth={data.Mês}
+        onBack={() => setSelectedTecnico(null)}
+      />
+    )
+  }
+
   return (
     <div className="space-y-6">
+      {/* Seleção rápida de técnico */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="bg-white rounded-xl shadow-lg p-6"
+      >
+        <h3 className="text-base font-semibold text-gray-700 mb-4 flex items-center gap-2">
+          <Users className="w-4 h-4 text-drumond-dark" />
+          Selecionar Técnico
+        </h3>
+        <div className="flex flex-wrap gap-2">
+          {tecnicos.map((t) => (
+            <button
+              key={t.nome}
+              onClick={() => setSelectedTecnico(t)}
+              className={`flex items-center gap-2 px-4 py-2 rounded-lg border-2 font-medium text-sm transition-all hover:scale-105 hover:shadow-md ${
+                t.setor === 'Engenharia Clínica'
+                  ? 'border-drumond-light text-drumond-light hover:bg-drumond-light hover:text-white'
+                  : 'border-drumond-accent text-drumond-accent hover:bg-drumond-accent hover:text-white'
+              }`}
+            >
+              <span className={`w-7 h-7 rounded-full flex items-center justify-center text-white text-xs font-bold flex-shrink-0 ${
+                t.setor === 'Engenharia Clínica' ? 'bg-drumond-light' : 'bg-drumond-accent'
+              }`}>
+                {t.nome.charAt(0)}
+              </span>
+              {t.nome}
+            </button>
+          ))}
+        </div>
+      </motion.div>
+
       {/* Header com estatísticas resumidas */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <motion.div
@@ -378,7 +424,8 @@ export default function TecnicoSection({ data }: TecnicoSectionProps) {
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: index * 0.05 }}
-                  className="hover:bg-gray-50"
+                  className="hover:bg-gray-50 cursor-pointer"
+                  onClick={() => setSelectedTecnico(tecnico)}
                 >
                   <td className="px-6 py-4 whitespace-nowrap">
                     <div className="flex items-center">
@@ -390,7 +437,10 @@ export default function TecnicoSection({ data }: TecnicoSectionProps) {
                         </div>
                       </div>
                       <div className="ml-4">
-                        <div className="text-sm font-medium text-gray-900">{tecnico.nome}</div>
+                        <div className="text-sm font-medium text-gray-900 hover:text-drumond-light transition-colors">
+                          {tecnico.nome}
+                        </div>
+                        <div className="text-xs text-gray-400 mt-0.5">Ver detalhes →</div>
                       </div>
                     </div>
                   </td>

@@ -79,3 +79,18 @@ export interface TecnicoData {
   percentualAtendimento: number
   percentualFechamento: number
 }
+
+export interface OSDetalhe {
+  numero: string
+  tipo: string
+  estado: string
+  prioridade: string
+  responsavel: string
+  localizacao: string
+  problema: string
+  data_criacao: string
+  data_conclusao: string
+  setor: string
+  atendimento: string
+  mes: string
+}
