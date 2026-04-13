@@ -134,26 +134,26 @@ export default function TecnicoDetail({ tecnico, allData, currentMonth, onBack }
     (os) => os.responsavel === tecnico.nome && os.mes === currentMonth
   )
 
-  // OS do dia selecionado (usa data_criacao como referência)
+  // OS do dia selecionado — formato da data é YYYY-DD-MM (ex: 2026-01-04 = dia 01/abril)
   const osNoDia = selectedDay
     ? osDoTecnicoNoMes.filter((os) => {
         const dataCriacao = os.data_criacao || ''
         const dataConclusao = os.data_conclusao || ''
         const diaRef = (dataConclusao && dataConclusao !== 'NaT') ? dataConclusao : dataCriacao
         if (!diaRef || diaRef === 'NaT') return false
-        const d = parseInt(diaRef.split('-')[2] ?? '0', 10)
+        const d = parseInt(diaRef.split('-')[1] ?? '0', 10)
         return d === selectedDay
       })
     : []
 
-  // Contagem de OS por dia para highlight
+  // Contagem de OS por dia para highlight — formato YYYY-DD-MM, dia em [1]
   const osPorDia: Record<number, number> = {}
   osDoTecnicoNoMes.forEach((os) => {
     const dataCriacao = os.data_criacao || ''
     const dataConclusao = os.data_conclusao || ''
     const diaRef = (dataConclusao && dataConclusao !== 'NaT') ? dataConclusao : dataCriacao
     if (!diaRef || diaRef === 'NaT') return
-    const d = parseInt(diaRef.split('-')[2] ?? '0', 10)
+    const d = parseInt(diaRef.split('-')[1] ?? '0', 10)
     if (d) osPorDia[d] = (osPorDia[d] || 0) + 1
   })
 
